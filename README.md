@@ -22,8 +22,8 @@ It includes:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/ux4g-login-demo.git
-cd ux4g-login-demo
+git clone https://github.com/Utkarsh7545/Google-reCAPTCHA-SSR.git
+cd Google-reCAPTCHA-SSR
 ```
 
 ### 2. Install dependencies
@@ -44,12 +44,6 @@ node server.js
 ### 5. Open in Browser
 Go to: [http://localhost:5173](http://localhost:5173) (Vite)  
 or: [http://localhost:3000](http://localhost:3000) (SSR via Express)
-
----
-
-## 🖼️ Screenshots
-- Login Page with Captcha  
-- Home Page with banners (using [placehold.co](https://placehold.co))
 
 ---
 
