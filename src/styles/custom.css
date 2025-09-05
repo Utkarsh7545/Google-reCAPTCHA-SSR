@@ -1,0 +1,106 @@
+/* App Container */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Login Page */
+.login-wrapper {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px 10px 0 0 !important;
+  border: none;
+}
+
+.btn-primary {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Home Page */
+.home-page {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.main-content {
+  min-height: calc(100vh - 200px);
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Footer */
+.custom-footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 40px 0 20px 0;
+}
+
+.custom-footer h5,
+.custom-footer h6 {
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+.custom-footer p {
+  color: #bdc3c7;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #bdc3c7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3498db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+  }
+
+  .custom-footer {
+    padding: 30px 0 15px 0;
+  }
+
+  .custom-footer .col-md-3,
+  .custom-footer .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
